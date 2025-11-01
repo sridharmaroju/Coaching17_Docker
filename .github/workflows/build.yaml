@@ -30,4 +30,4 @@ jobs:
         with:
           context: .
           push: true
-          tags: sridharmaroju/coaching17-dockerimage:v${{ github.run_number }}.0, sridharmaroju/coaching17-dockerimage/flask-app:latest
+          tags: sridharmaroju/coaching17-dockerimage:v${{ github.run_number }}.0, sridharmaroju/coaching17-dockerimage:latest
